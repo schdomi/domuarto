@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – Domuarto</title>
+<title>My Projects – Domuarto</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/index.qmd"> 
+    <a class="nav-link active" href="../Projects/index.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -126,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">My Projects</h1>
 </div>
 
 
@@ -143,7 +143,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Teszt teszt</p>
+<p>Check out my work below:</p>
+<ul>
+<li><a href="../Projects/Finding_Nemo/index.html">Finding Nemo</a></li>
+<li><a href="Maps/index.qmd">Maps</a></li>
+<li><a href="Merengek/index.qmd">Merengek</a></li>
+</ul>
 
 
 
@@ -221,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/schdomi\.github\.io\/domuarto\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
